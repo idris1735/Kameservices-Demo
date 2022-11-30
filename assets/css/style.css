@@ -509,13 +509,13 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: 80vh;
+    height: 100vh;
   }
 }
 
 @media (max-width: 360px) {
   #hero {
-    height: 80vh;
+    height: 100vh;
   }
   .tm-banner-title {
     margin-top: 20px;
