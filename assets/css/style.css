@@ -518,13 +518,14 @@ h6 {
     height: 100vh;
   }
   .tm-banner-title {
-    margin-top: 20px;
-    font-size: 24px;
+    /* margin-top: 20px; */
+    font-size: 26px;
     font-weight: 700;
     margin-bottom: 40px;
   }
 
   .tm-banner-subtitle {
+    margin-top: 10px;
     font-size: 16px;
     font-weight: 400;
     /* max-width: 500px; */
