@@ -432,17 +432,6 @@ h6 {
   /* max-width: 520px; */
 }
 
-.tm-banner-title {
-  font-size: 30px;
-  font-weight: 700;
-  margin-bottom: 40px;
-}
-
-.tm-banner-subtitle {
-  font-size: 24px;
-  font-weight: 400;
-  /* max-width: 500px; */
-}
 /*
 #hero:before {
   content: '';
@@ -500,29 +489,29 @@ h6 {
   background: #8fc04e;
 }
 
-/*
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+  }
+
+  .tm-banner-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+
+  .tm-banner-subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    /* max-width: 500px; */
   }
 }
 
 @media (max-width: 768px) {
   #hero {
-    height: 100vh;
-  } 
+    height: 80vh;
+  }
 }
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
- /* #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-} */
 
 /*--------------------------------------------------------------
 # Sections General
