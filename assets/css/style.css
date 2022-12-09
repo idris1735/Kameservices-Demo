@@ -15,11 +15,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #8fc04e;
+  color: #0f6eb1;
 }
 
 a:hover {
-  color: #a7cd74;
+  color: #bf1e2e;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #8fc04e;
+  background: #0f6eb1;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -499,15 +499,15 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #8fc04e;
+  border: 1px solid #bf1e2e;
   color: #fff;
-  background-color: #8fc04e;
+  background-color: #0f6eb1;
 }
 
 #hero .btn-get-started:hover {
-  background: white;
-  border: 1px solid #8fc04e;
-  color: #8fc04e;
+  background: #bf1e2e;
+  border: 1px solid #0f6eb1;
+  color: white;
 }
 
 @media (min-width: 1024px) {
@@ -574,7 +574,7 @@ section {
   padding: 8px 20px;
   margin: 0;
   background: #f3f8ec;
-  color: #8fc04e;
+  color: #0f6eb1;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -587,7 +587,7 @@ section {
 }
 
 .section-title h3 span {
-  color: #8fc04e;
+  color: #bf1e2e;
 }
 
 .section-title p {
@@ -792,7 +792,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #8fc04e;
+  color: #bf1e2e;
 }
 
 .why-us .box h4 {
@@ -811,7 +811,7 @@ section {
 }
 
 .why-us .box:hover {
-  background: #8fc04e;
+  background: #0f6eb1;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -833,7 +833,7 @@ section {
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #8fc04e;
+  color: #0f6eb1;
 }
 
 .counts .counters p {
@@ -1523,7 +1523,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #8fc04e;
+  color: #0f6eb1;
   float: left;
   width: 44px;
   height: 44px;
@@ -1558,7 +1558,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #8fc04e;
+  background: #0f6eb1;
   color: #fff;
 }
 
@@ -1629,7 +1629,7 @@ section {
 }
 
 .contact .php-email-form button[type='submit'] {
-  background: #8fc04e;
+  background: #0f6eb1;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1638,7 +1638,7 @@ section {
 }
 
 .contact .php-email-form button[type='submit']:hover {
-  background: #7aa93c;
+  background: #bf1e2e;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1784,7 +1784,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #8fc04e;
+  background: #bf1e2e;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1802,7 +1802,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #8fc04e;
+  background: #bf1e2e;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1815,7 +1815,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #75a239;
+  background: #0f6eb1;
   color: #fff;
   text-decoration: none;
 }
