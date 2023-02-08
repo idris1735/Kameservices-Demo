@@ -676,7 +676,12 @@ section {
 }
 
 .about .video-box {
-  background: url('../img/Customclearance1.jpeg') center center no-repeat;
+  background: url('../img/Logistics.png') center center no-repeat;
+  background-size: cover;
+  min-height: 550px;
+}
+.about .video-boxhome {
+  background: url('../img/customclearance2.jpeg') center center no-repeat;
   background-size: cover;
   min-height: 550px;
 }
@@ -904,7 +909,7 @@ section {
 --------------------------------------------------------------*/
 .call-to-action .container {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('../img/Logistics.png') bottom center;
+    url('../img/LOGISTICS2.jpeg') top center;
   background-size: cover;
   padding: 150px 90px;
   border-radius: 15px;
