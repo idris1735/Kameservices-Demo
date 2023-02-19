@@ -164,7 +164,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #0c203887;
+  background: #ffffff;
   border-bottom: 1px solid #ffffffc5;
 }
 
@@ -247,7 +247,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #fff;
+  color: #0c2038;
 }
 
 .navbar .getstarted,
@@ -1031,6 +1031,95 @@ section {
 
 .services .icon-box:hover .icon {
   border-color: #0c2038;
+}
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team {
+  background: #fff;
+  padding: 60px 0;
+}
+
+.team .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.team .member .social {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team .member .social a {
+  transition: color 0.3s;
+  color: #353535;
+  margin: 0 3px;
+  border-radius: 50px;
+  width: 36px;
+  height: 36px;
+  background: rgba(143, 192, 78, 0.8);
+  display: inline-block;
+  transition: ease-in-out 0.3s;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team .member .social a:hover {
+  background: #8fc04e;
+}
+
+.team .member .social i {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.team .member .member-info {
+  padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #353535;
+}
+
+.team .member .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+
+.team .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
+  font-weight: 600;
+}
+
+.team .member:hover .social {
+  opacity: 1;
+  bottom: 15px;
 }
 
 /*--------------------------------------------------------------
