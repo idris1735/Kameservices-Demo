@@ -842,6 +842,23 @@ section {
 .plustext {
   color: #3daeb2;
 }
+.underbutton-container {
+}
+.under-button {
+  height: 40px;
+  width: 130px;
+  color: #fff;
+  background-color: #0c2038;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  font-weight: 600;
+}
+.under-button:hover {
+  height: 45px;
+  width: 135px;
+  background-color: #3daeb2;
+  transition: 0.5s all;
+}
 /* END OF ABOUT HERO */
 
 /*--------------------------------------------------------------
@@ -984,8 +1001,8 @@ section {
 
 .services .icon-box .icon {
   margin: 0 auto;
-  width: 64px;
-  height: 64px;
+  width: 84px;
+  height: 84px;
   background: #f3f8ec;
   border-radius: 50px;
   border: 1px solid #d6e8bf;
@@ -997,9 +1014,9 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: #bfdb99;
-  font-size: 28px;
-  transition: ease-in-out 0.3s;
+  color: #3daeb2;
+  font-size: 50px;
+  transition: ease-in-out 0.75s;
 }
 
 .services .icon-box h4 {
@@ -1015,8 +1032,9 @@ section {
 
 .services .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 0;
+  font-weight: 400;
 }
 
 .services .icon-box:hover {
