@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Kame Services</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/kamelogocrop.jpeg" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|futura:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: Remember - v4.9.1
+  * Template URL: https://bootstrapmade.com/remember-free-multipurpose-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+  <style>
+   .blog .comments {
+  margin-top: 30px;
+}
+
+.blog .comments .comments-count {
+  font-weight: bold;
+}
+
+.blog .comments .comment {
+  margin-top: 30px;
+  position: relative;
+}
+
+.blog .comments .comment .comment-img {
+  margin-right: 14px;
+}
+
+.blog .comments .comment .comment-img img {
+  width: 60px;
+}
+
+.blog .comments .comment h5 {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.blog .comments .comment h5 a {
+  font-weight: bold;
+  color: var(--color-default);
+  transition: 0.3s;
+}
+
+.blog .comments .comment h5 a:hover {
+  color: var(--color-primary);
+}
+
+.blog .comments .comment h5 .reply {
+  padding-left: 10px;
+  color: var(--color-primary);
+}
+
+.blog .comments .comment h5 .reply i {
+  font-size: 20px;
+}
+
+.blog .comments .comment time {
+  display: block;
+  font-size: 14px;
+  color: rgba(34, 34, 34, 0.8);
+  margin-bottom: 5px;
+}
+
+.blog .comments .comment.comment-reply {
+  padding-left: 40px;
+}
+
+.blog .comments .reply-form {
+  margin-top: 30px;
+  padding: 30px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.blog .comments .reply-form h4 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.blog .comments .reply-form p {
+  font-size: 14px;
+}
+
+.blog .comments .reply-form input {
+  border-radius: 4px;
+  padding: 10px 10px;
+  font-size: 14px;
+}
+
+.blog .comments .reply-form input:focus {
+  box-shadow: none;
+  border-color: rgba(0, 131, 116, 0.8);
+}
+
+.blog .comments .reply-form textarea {
+  border-radius: 4px;
+  padding: 10px 10px;
+  font-size: 14px;
+}
+
+.blog .comments .reply-form textarea:focus {
+  box-shadow: none;
+  border-color: rgba(0, 131, 116, 0.8);
+}
+
+.blog .comments .reply-form .form-group {
+  margin-bottom: 25px;
+}
+
+.blog .comments .reply-form .btn-primary {
+  border-radius: 50px;
+  padding: 14px 40px;
+  border: 0;
+  background-color: var(--color-secondary);
+}
+
+.blog .comments .reply-form .btn-primary:hover {
+  background-color: rgba(248, 90, 64, 0.8);
+}
+  </style>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex justify-content-between">
+        <div class="logo">
+          <!-- <h1 class="text-light"><a href="index.html">KameServices</a></h1> -->
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <a href="index.html"
+            ><img src="assets/img/kamelogocrop.jpeg" alt="" class="img-logo"
+          /></a>
+        </div>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a class="nav-link scrollto" href="index.html">Home</a>
+            </li>
+            <!-- <li><a class="nav-link scrollto" href="#about">About us</a></li> -->
+            <li class="dropdown">
+              <a class=" nav-link scrollto" href="about.html"
+                ><span>About us</span> <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li><a href="#whoweare">Who We Are</a></li>
+                <!-- <li><a href="#">Our Subsidiaries</a></li> -->
+                <li><a href="our-team.html" class="nav-link scrollto">Our Team</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="services.html" class=" nav-link scrollto"
+                ><span>Services</span></a>
+              <!-- <ul>
+                <li><a href="#">What We Do</a></li>
+              </ul> -->
+            </li>
+            <!-- <li>
+              <a class="nav-link scrollto" href="#services">Subsidiaries</a>
+            </li> -->
+            <!-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li> -->
+            <!-- <li><a class="nav-link scrollto" href="#team">Our Team</a></li> -->
+            <li><a class="nav-link active scrollto" href="blog.html">Blog</a></li>
+            <li>
+              <a class="nav-link scrollto" href="contact.html">Contact us</a>
+            </li>
+            
+            <li>
+              <div
+                class="goog-logo-link goog-te-gadget"
+                id="google_translate_element"
+              ></div>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+    <style>
+     h1{
+  text-align:center;
+  margin-bottom:50px;
+  margin-top:50px;
+}
+a {
+  font-family: Roboto;
+ }
+.blog-card-blog {
+    margin-top: 30px;
+}
+.blog-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.blog-card .blog-card-image {
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.blog-card .blog-card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    pointer-events: none;
+}
+.blog-card .blog-table {
+    padding: 15px 30px;
+}
+.blog-table {
+    margin-bottom: 0px;
+}
+.blog-category {
+    position: relative;
+    line-height: 0;
+    margin: 15px 0;
+}
+.blog-text-success {
+    color: #28a745!important;
+}
+.blog-card-blog .blog-card-caption {
+    margin-top: 5px;
+}
+.blog-card-caption {
+    font-weight: 700;
+    font-family: "Roboto Slab", "Times New Roman", serif;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.blog-card-caption, .blog-card-caption a {
+    color: #333;
+    text-decoration: none;
+}
+
+p {
+    color: #3C4857;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.blog-card .ftr {
+    margin-top: 15px;
+}
+.blog-card .ftr .author {
+    color: #888;
+}
+
+.blog-card .ftr div {
+    display: inline-block;
+}
+.blog-card .author .avatar {
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.blog-card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 14px;
+}
+.blog-card .ftr .stats {
+    float: right;
+    line-height: 30px;
+}
+    </style>
+
+ <main id="main">
+<h1 style="margin-top: 100px; font-family: 'futura-bold', sans-serif; color: #0c2038;font-size: 50px; letter-spacing: 1px; font-weight: 600; text-shadow: 2px 2px 4px #3daeb2;">Notre blog</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+  <div class="blog-card blog-card-blog">
+    <div class="blog-card-image">
+        <a href="#"> <img class="img" src="https://picsum.photos/id/1084/535/353?grayscale"> </a>
+        <div class="ripple-cont"></div>
+    </div>
+    <div class="blog-table">
+        <h6 class="blog-category blog-text-success"><i class="far fa-newspaper"></i> News</h6>
+        <h4 class="blog-card-caption">
+            <a href="#">Lorem Ipsum is simply dummy text of the printing and</a>
+        </h4>
+        <p class="blog-card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="ftr">
+            <div class="author">
+                <a href="#"> <img src="https://picsum.photos/id/1005/5760/3840" alt="..." class="avatar img-raised"> <span>Lorem</span> </a>
+            </div>
+            <div class="stats"> <i class="far fa-clock"></i> 10 min </div>
+        </div>
+    </div>
+</div>
+</div>
+    
+    
+    <div class="col-md-4">
+  <div class="blog-card blog-card-blog">
+    <div class="blog-card-image">
+        <a href="#"> <img class="img" src="https://picsum.photos/id/1084/536/354?grayscale"> </a>
+        <div class="ripple-cont"></div>
+    </div>
+    <div class="blog-table">
+        <h6 class="blog-category blog-text-success"><i class="fas fa-blog"></i> News</h6>
+        <h4 class="blog-card-caption">
+            <a href="#">Lorem Ipsum is simply dummy text of the printing and</a>
+        </h4>
+        <p class="blog-card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="ftr">
+            <div class="author">
+                <a href="#"> <img src="https://picsum.photos/id/1005/5760/3840" alt="..." class="avatar img-raised"> <span>Lorem</span> </a>
+            </div>
+            <div class="stats"> <i class="far fa-clock"></i> 10 min </div>
+        </div>
+    </div>
+</div>
+</div>
+    
+    <div class="col-md-4">
+  <div class="blog-card blog-card-blog">
+    <div class="blog-card-image">
+        <a href="#"> <img class="img" src="https://picsum.photos/id/1084/536/354?grayscale"> </a>
+        <div class="ripple-cont"></div>
+    </div>
+    <div class="blog-table">
+        <h6 class="blog-category blog-text-success"><i class="far fa-newspaper"></i> News</h6>
+        <h4 class="blog-card-caption">
+            <a href="#">Lorem Ipsum is simply dummy text of the printing and</a>
+        </h4>
+        <p class="blog-card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="ftr">
+            <div class="author">
+                <a href="#"> <img src="https://picsum.photos/id/1005/5760/3840" alt="..." class="avatar img-raised"> <span>Lorem</span> </a>
+            </div>
+            <div class="stats"> <i class="far fa-clock"></i> 10 min </div>
+        </div>
+    </div>
+</div>
+</div>
+  </div>
+</div>
+</main>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <h3>KAME SERVICES</h3>
+            </div>
+          </div>
+
+          <div class="row footer-newsletter justify-content-center">
+            <div class="col-lg-6">
+              <form action="" method="post">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Entrer votre Email"
+                /><input type="submit" value="Obtenir un devis" />
+              </form>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+       
+            <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer-bottom clearfix">
+        <div class="copyright">
+          &copy; Copyright <strong><span>KAMESERVICES. </span></strong
+          >Tous les droits sont réservés
+        </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+       <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: 'fr',
+            includedLanguages: 'en,fr',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          },
+          'google_translate_element'
+        )
+      }
+    </script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
