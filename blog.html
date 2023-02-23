@@ -49,119 +49,7 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   </head>
-  <style>
-   .blog .comments {
-  margin-top: 30px;
-}
-
-.blog .comments .comments-count {
-  font-weight: bold;
-}
-
-.blog .comments .comment {
-  margin-top: 30px;
-  position: relative;
-}
-
-.blog .comments .comment .comment-img {
-  margin-right: 14px;
-}
-
-.blog .comments .comment .comment-img img {
-  width: 60px;
-}
-
-.blog .comments .comment h5 {
-  font-size: 16px;
-  margin-bottom: 2px;
-}
-
-.blog .comments .comment h5 a {
-  font-weight: bold;
-  color: var(--color-default);
-  transition: 0.3s;
-}
-
-.blog .comments .comment h5 a:hover {
-  color: var(--color-primary);
-}
-
-.blog .comments .comment h5 .reply {
-  padding-left: 10px;
-  color: var(--color-primary);
-}
-
-.blog .comments .comment h5 .reply i {
-  font-size: 20px;
-}
-
-.blog .comments .comment time {
-  display: block;
-  font-size: 14px;
-  color: rgba(34, 34, 34, 0.8);
-  margin-bottom: 5px;
-}
-
-.blog .comments .comment.comment-reply {
-  padding-left: 40px;
-}
-
-.blog .comments .reply-form {
-  margin-top: 30px;
-  padding: 30px;
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-}
-
-.blog .comments .reply-form h4 {
-  font-weight: bold;
-  font-size: 22px;
-}
-
-.blog .comments .reply-form p {
-  font-size: 14px;
-}
-
-.blog .comments .reply-form input {
-  border-radius: 4px;
-  padding: 10px 10px;
-  font-size: 14px;
-}
-
-.blog .comments .reply-form input:focus {
-  box-shadow: none;
-  border-color: rgba(0, 131, 116, 0.8);
-}
-
-.blog .comments .reply-form textarea {
-  border-radius: 4px;
-  padding: 10px 10px;
-  font-size: 14px;
-}
-
-.blog .comments .reply-form textarea:focus {
-  box-shadow: none;
-  border-color: rgba(0, 131, 116, 0.8);
-}
-
-.blog .comments .reply-form .form-group {
-  margin-bottom: 25px;
-}
-
-.blog .comments .reply-form .btn-primary {
-  border-radius: 50px;
-  padding: 14px 40px;
-  border: 0;
-  background-color: var(--color-secondary);
-}
-
-.blog .comments .reply-form .btn-primary:hover {
-  background-color: rgba(248, 90, 64, 0.8);
-}
-  </style>
-
-  <body>
-    <!-- ======= Header ======= -->
+  <!-- ======= Header ======= -->
     <header id="header" class="d-flex align-items-center">
       <div class="container d-flex justify-content-between">
         <div class="logo">
@@ -178,22 +66,22 @@
               <a class="nav-link scrollto" href="index.html">Home</a>
             </li>
             <!-- <li><a class="nav-link scrollto" href="#about">About us</a></li> -->
-            <li class="dropdown">
-              <a class=" nav-link scrollto" href="about.html"
-                ><span>About us</span> <i class="bi bi-chevron-down"></i
+            <li>
+              <a href="about.html" class=" nav-link scrollto"
+                ><span>About us</span></a>
+              <!-- <ul>
+                <li><a href="#">Who We Are</a></li>
+                <li><a href="#">Our Subsidiaries</a></li>
+                <li><a href="#" class="nav-link scrollto">Our Team</a></li>
+              </ul> -->
+            </li>
+            <li class="dropdown"> 
+              <a class=" nav-link scrollto" href="services.html"
+                ><span>Services</span> <i class="bi bi-chevron-down"></i
               ></a>
               <ul>
-                <li><a href="#whoweare">Who We Are</a></li>
-                <!-- <li><a href="#">Our Subsidiaries</a></li> -->
-                <li><a href="our-team.html" class="nav-link scrollto">Our Team</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="services.html" class=" nav-link scrollto"
-                ><span>Services</span></a>
-              <!-- <ul>
                 <li><a href="#">What We Do</a></li>
-              </ul> -->
+              </ul>
             </li>
             <!-- <li>
               <a class="nav-link scrollto" href="#services">Subsidiaries</a>
@@ -204,8 +92,7 @@
             <li>
               <a class="nav-link scrollto" href="contact.html">Contact us</a>
             </li>
-            
-            <li>
+             <li>
               <div
                 class="goog-logo-link goog-te-gadget"
                 id="google_translate_element"
@@ -218,187 +105,207 @@
       </div>
     </header>
     <!-- End Header -->
-    <style>
-     h1{
-  text-align:center;
-  margin-bottom:50px;
-  margin-top:50px;
-}
-a {
-  font-family: Roboto;
- }
-.blog-card-blog {
-    margin-top: 30px;
-}
-.blog-card {
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    margin-bottom: 30px;
-    border-radius: 6px;
-    color: rgba(0, 0, 0, 0.87);
-    background: #fff;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-}
-.blog-card .blog-card-image {
-    height: 60%;
-    position: relative;
-    overflow: hidden;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: -30px;
-    border-radius: 6px;
-    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-}
-.blog-card .blog-card-image img {
-    width: 100%;
-    height: 100%;
-    border-radius: 6px;
-    pointer-events: none;
-}
-.blog-card .blog-table {
-    padding: 15px 30px;
-}
-.blog-table {
-    margin-bottom: 0px;
-}
-.blog-category {
-    position: relative;
-    line-height: 0;
-    margin: 15px 0;
-}
-.blog-text-success {
-    color: #28a745!important;
-}
-.blog-card-blog .blog-card-caption {
-    margin-top: 5px;
-}
-.blog-card-caption {
-    font-weight: 700;
-    font-family: "Roboto Slab", "Times New Roman", serif;
-}
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-.blog-card-caption, .blog-card-caption a {
-    color: #333;
-    text-decoration: none;
-}
 
-p {
-    color: #3C4857;
-}
+  <main id="main">
 
-p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-.blog-card .ftr {
-    margin-top: 15px;
-}
-.blog-card .ftr .author {
-    color: #888;
-}
-
-.blog-card .ftr div {
-    display: inline-block;
-}
-.blog-card .author .avatar {
-    width: 36px;
-    height: 36px;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-right: 5px;
-}
-.blog-card .ftr .stats {
-    position: relative;
-    top: 1px;
-    font-size: 14px;
-}
-.blog-card .ftr .stats {
-    float: right;
-    line-height: 30px;
-}
-    </style>
-
- <main id="main">
-<h1 style="margin-top: 100px; font-family: 'futura-bold', sans-serif; color: #0c2038;font-size: 50px; letter-spacing: 1px; font-weight: 600; text-shadow: 2px 2px 4px #3daeb2;">Notre blog</h1>
-<div class="container">
-  <div class="row">
-    <div class="col-md-4">
-  <div class="blog-card blog-card-blog">
-    <div class="blog-card-image">
-        <a href="#"> <img class="img" src="https://picsum.photos/id/1084/535/353?grayscale"> </a>
-        <div class="ripple-cont"></div>
-    </div>
-    <div class="blog-table">
-        <h6 class="blog-category blog-text-success"><i class="far fa-newspaper"></i> News</h6>
-        <h4 class="blog-card-caption">
-            <a href="#">Lorem Ipsum is simply dummy text of the printing and</a>
-        </h4>
-        <p class="blog-card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <div class="ftr">
-            <div class="author">
-                <a href="#"> <img src="https://picsum.photos/id/1005/5760/3840" alt="..." class="avatar img-raised"> <span>Lorem</span> </a>
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs" style="background: linear-gradient(rgba(12,32,56, 0.5), rgba(61,174,178, 0.8)), center center;">
+      <div class="page-header d-flex align-items-center" style="background-image: url('');">
+        <div class="container position-relative">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h2 style="font-size: 40px; font-weight: 700; color: #fff;  text-shadow: 2px 2px 4px #000000;">Notre blog</h2>
+              <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
             </div>
-            <div class="stats"> <i class="far fa-clock"></i> 10 min </div>
+          </div>
         </div>
-    </div>
-</div>
-</div>
-    
-    
-    <div class="col-md-4">
-  <div class="blog-card blog-card-blog">
-    <div class="blog-card-image">
-        <a href="#"> <img class="img" src="https://picsum.photos/id/1084/536/354?grayscale"> </a>
-        <div class="ripple-cont"></div>
-    </div>
-    <div class="blog-table">
-        <h6 class="blog-category blog-text-success"><i class="fas fa-blog"></i> News</h6>
-        <h4 class="blog-card-caption">
-            <a href="#">Lorem Ipsum is simply dummy text of the printing and</a>
-        </h4>
-        <p class="blog-card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <div class="ftr">
-            <div class="author">
-                <a href="#"> <img src="https://picsum.photos/id/1005/5760/3840" alt="..." class="avatar img-raised"> <span>Lorem</span> </a>
-            </div>
-            <div class="stats"> <i class="far fa-clock"></i> 10 min </div>
+      </div>
+      <nav>
+        <div class="container">
+          <ol>
+            <li><a href="index.html" style="color: white;">Home</a></li>
+            <li>Blog</li>
+          </ol>
         </div>
-    </div>
-</div>
-</div>
-    
-    <div class="col-md-4">
-  <div class="blog-card blog-card-blog">
-    <div class="blog-card-image">
-        <a href="#"> <img class="img" src="https://picsum.photos/id/1084/536/354?grayscale"> </a>
-        <div class="ripple-cont"></div>
-    </div>
-    <div class="blog-table">
-        <h6 class="blog-category blog-text-success"><i class="far fa-newspaper"></i> News</h6>
-        <h4 class="blog-card-caption">
-            <a href="#">Lorem Ipsum is simply dummy text of the printing and</a>
-        </h4>
-        <p class="blog-card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <div class="ftr">
-            <div class="author">
-                <a href="#"> <img src="https://picsum.photos/id/1005/5760/3840" alt="..." class="avatar img-raised"> <span>Lorem</span> </a>
-            </div>
-            <div class="stats"> <i class="far fa-clock"></i> 10 min </div>
-        </div>
-    </div>
-</div>
-</div>
-  </div>
-</div>
-</main>
+      </nav>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4 posts-list">
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Politics</p>
+
+              <h2 class="title">
+                <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author-list">Maria Doe</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">Jan 1, 2022</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Sports</p>
+
+              <h2 class="title">
+                <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="assets/img/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author-list">Allisa Mayer</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">Jun 5, 2022</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Entertainment</p>
+
+              <h2 class="title">
+                <a href="blog-details.html">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="assets/img/blog/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author-list">Mark Dower</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">Jun 22, 2022</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="assets/img/blog/blog-4.jpg" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Sports</p>
+
+              <h2 class="title">
+                <a href="blog-details.html">Non rem rerum nam cum quo minus olor distincti</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="assets/img/blog/blog-author-4.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author-list">Lisa Neymar</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">Jun 30, 2022</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="assets/img/blog/blog-5.jpg" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Politics</p>
+
+              <h2 class="title">
+                <a href="blog-details.html">Accusamus quaerat aliquam qui debitis facilis consequatur</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="assets/img/blog/blog-author-5.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author-list">Denis Peterson</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">Jan 30, 2022</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="assets/img/blog/blog-6.jpg" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Entertainment</p>
+
+              <h2 class="title">
+                <a href="blog-details.html">Distinctio provident quibusdam numquam aperiam aut</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="assets/img/blog/blog-author-6.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author-list">Mika Lendon</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">Feb 14, 2022</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+        </div><!-- End blog posts list -->
+
+        <div class="blog-pagination">
+          <ul class="justify-content-center">
+            <li><a href="#">1</a></li>
+            <li class="active"><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+          </ul>
+        </div><!-- End blog pagination -->
+
+      </div>
+    </section><!-- End Blog Section -->
+
+  </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
