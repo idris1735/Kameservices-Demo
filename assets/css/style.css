@@ -1351,7 +1351,8 @@ section {
 }
 
 .contact .info .email,
-.contact .info .phone {
+.contact .info .phone,
+.whatsapp {
   margin-top: 40px;
 }
 
