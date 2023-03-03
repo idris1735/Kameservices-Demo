@@ -862,6 +862,39 @@ section {
 /* END OF ABOUT HERO */
 
 /*--------------------------------------------------------------
+# LITTLE SECTION
+--------------------------------------------------------------*/
+.little-section {
+  height: 250px;
+  width: 100%;
+  display: flex;
+}
+.leftbox {
+  height: 100%;
+  width: 30%;
+  background-color: #3daeb2;
+}
+.rightbox {
+  height: 100%;
+  width: 70%;
+  background-color: #dadad8;
+  display: flex;
+  justify-content: center;
+}
+.ls-imgbox {
+  width: 150px;
+  height: 150px;
+  margin-left: 90px;
+}
+.ls-imgbox img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+/* END OF LITTLE SECTION */
+
+/*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
 .why-us .box {
@@ -1514,13 +1547,74 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url('../img/secondban1.png') center bottom repeat;
-  color: #fff;
+  background: url('../img/secondban1.jpg') center bottom repeat;
+  background-size: cover;
   font-size: 14px;
   position: relative;
+  min-height: 400px;
+}
+.footerhead {
+  width: 100%;
+  display: flex;
 }
 
-#footer::before {
+.footerhead-right,
+.footerhead-left {
+  width: 50%;
+  padding: 25px;
+}
+.footerhead-right {
+  margin-top: 100px;
+}
+.footerhead-left h2 {
+  font-weight: 700;
+  color: white;
+  font-family: 'futura-bold', sans-serif;
+  font-size: 35px;
+}
+
+.footerhead-right h2 {
+  font-weight: 900;
+  color: white;
+  font-family: 'futura-bold', sans-serif;
+  justify-content: flex-end;
+  display: flex;
+  font-size: 35px;
+}
+
+.footerhead-right p {
+  font-family: 'futura-bold', sans-serif;
+  font-size: 25px;
+  color: white;
+  font-weight: 400;
+  margin-left: -65px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-right: 15px;
+}
+.footerbutton {
+  background-color: #3daeb2;
+  color: white;
+  font-size: 20px;
+  border-radius: 35px;
+  height: 60px;
+  width: 200px;
+  border: none;
+}
+
+@media screen and (max-width: 500px) {
+  .footerhead {
+    display: block;
+  }
+  .footerhead-right {
+    margin-left: 70px;
+  }
+}
+/* #footer::before {
   content: '';
   position: absolute;
   left: 0;
@@ -1546,9 +1640,9 @@ section {
   font-family: 'futura-bold', sans-serif;
   padding-bottom: 0;
   margin-bottom: 0;
-}
+} */
 
-#footer .footer-top p {
+/* #footer .footer-top p {
   font-size: 15;
   font-style: italic;
   margin: 30px 0 0 0;
@@ -1595,32 +1689,33 @@ section {
 #footer .footer-top .footer-newsletter form input[type='submit']:hover {
   background: #0c2038;
 }
-
-#footer .footer-top .social-links {
+*/
+#footer .footerhead .footerhead-left .social-links {
   margin-top: 30px;
 }
 
-#footer .footer-top .social-links a {
-  font-size: 18px;
+#footer .footerhead .footerhead-left .social-links a {
+  font-size: 30px;
   display: inline-block;
   background: #3daeb2;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
+  margin-right: 10px;
+  border-radius: 10px;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 50px;
+  height: 50px;
   transition: 0.3s;
 }
 
-#footer .footer-top .social-links a:hover {
+#footer .footerhead .footerhead-left .social-links a:hover {
   background: #0c2038;
   color: #fff;
   text-decoration: none;
 }
 
+/*
 #footer .footer-bottom {
   border-top: 1px solid #282828;
   z-index: 2;
@@ -1638,7 +1733,7 @@ section {
   float: right;
   text-align: center;
   font-size: 13px;
-}
+} */
 
 .onfocus .content .read-more {
   font-family: 'futura-gold', sans-serif;
