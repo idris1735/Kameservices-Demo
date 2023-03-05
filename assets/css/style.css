@@ -164,7 +164,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #0c2038a3;
+  background: #fff;
   border-bottom: 1px solid #0c2038;
 }
 
@@ -645,12 +645,18 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about {
+
+.homa h3 {
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 15px;
+}
+.homa {
   background: url('../img/cargologistics.jpg') bottom center no-repeat;
   background-size: cover;
   margin-top: 60px;
 }
-
 .about .box-heading h4 {
   font-size: 13px;
   letter-spacing: 1px;
@@ -764,13 +770,13 @@ section {
   font-size: 26px;
 }
 
-/* .box-heading ul {
+.box-heading ul {
   list-style: none;
   padding: 0;
   margin-top: 25px;
-} */
+}
 
-/* .box-heading ul li {
+.box-heading ul li {
   padding: 0 0 15px 26px;
   position: relative;
   font-size: 20px;
@@ -783,7 +789,7 @@ section {
   left: 0;
   top: -3px;
   color: #3daeb2;
-} */
+}
 
 /* ABOUT HERO */
 
@@ -1110,6 +1116,11 @@ section {
   color: white;
   font-weight: 600;
   text-shadow: 2px 2px 4px #000000;
+}
+.servicebanner-head i {
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
 }
 .servicebanner-head {
   background: url('../img/photo-kame.png') top center no-repeat;
