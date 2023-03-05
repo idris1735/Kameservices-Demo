@@ -474,6 +474,7 @@ h6 {
   font-size: 60px;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 40px;
+  text-align: center;
   letter-spacing: 1;
 }
 
@@ -535,7 +536,6 @@ h6 {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
-  display: inline-block;
   padding: 8px 28px;
   border-radius: 50px;
   transition: 0.5s;
@@ -917,14 +917,14 @@ section {
   color: #fff;
   font-size: 35px;
   font-weight: 600;
-  margin-top: 70px;
+  margin-top: 90px;
   text-align: center;
   font-family: 'futura-bold', sans-serif;
   letter-spacing: 1px;
   margin-left: -10px;
 }
 .rightbox {
-  min-height: 280px;
+  min-height: 100%;
   min-width: 70%;
   background-color: #dadad8;
   display: flex;
