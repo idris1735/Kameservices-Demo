@@ -164,8 +164,8 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #ffffff;
-  border-bottom: 1px solid #ffffffc5;
+  background: #0c2038a3;
+  border-bottom: 1px solid #0c2038;
 }
 
 /* #header .logo h1 {
@@ -1094,6 +1094,29 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+.sb-text {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  text-align: center;
+}
+.sb-text h2 {
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 0.6px;
+  color: white;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px #000000;
+}
+.servicebanner-head {
+  background: url('../img/photo-kame.png') top center no-repeat;
+  min-height: 500px;
+  width: 100%;
+  background-size: cover;
+}
 .services .icon-box {
   text-align: center;
   border: 1px solid #e5f0d5;
