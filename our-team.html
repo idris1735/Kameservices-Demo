@@ -49,7 +49,41 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   </head>
+<style>
+  .cards {
+	display: flex;
+  border-radius: 10px;
+  box-sizing: border-box; 
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
 
+.cards:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.16), 0 4px 10px rgba(0,0,0,0.23);
+  transition: all .5s;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+     
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top:20px;
+}
+
+
+</style>
   <body>
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex align-items-center">
@@ -81,15 +115,9 @@
             <li>
               <a href="services.html" class=" nav-link scrollto"
                 ><span>Services</span></a>
-              <!-- <ul>
-                <li><a href="#">What We Do</a></li>
-              </ul> -->
+
             </li>
-            <!-- <li>
-              <a class="nav-link scrollto" href="#services">Subsidiaries</a>
-            </li> -->
-            <!-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li> -->
-            <!-- <li><a class="nav-link scrollto" href="#team">Our Team</a></li> -->
+
             <li><a class="nav-link scrollto" href="#">Blog</a></li>
             <li>
               <a class="nav-link scrollto" href="contact.html">Contact us</a>
@@ -111,6 +139,7 @@
 
     <main id="main">
 
+
 <!-- Hero -->
 
                       <!-- ======= Team Section ======= -->
@@ -119,28 +148,74 @@
 
         <div class="section-title" data-aos="zoom-in">
           <h2>Équipe</h2>
-          <h3> Notre <span>équipe</span> dynamique
+          <h3> Une <span>équipe</span> dynamique
         </div>
 
-        <div class="row">
+<br>
+<br>
+<div class="container">
+  <div class="card cards float-left">
+    <div class="row ">
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up">
-              <div class="member-img">
-                <img src="assets/img/EvelyneKanga.jpg" class="img-fluid" alt="">
-           
-              </div>
-              <div class="member-info">
+      <div class="col-sm-6">
+        <div class="card-block">
+          <!--           <h4 class="card-title">Small card</h4> -->
+           <div class="member-info">
                 <h4>EVELYNE KANGA </h4>
                 <span>Directeur général</span>
                 <p>
                  Kanga est une jeune femme passionnée par le transit import-export, la logistique et le commerce international avec plus d'une décennie d'expérience dans le domaine. Elle a fait ses premiers pas chez Diamond Shipping en 2013 en tant que représentante commerciale. Elle a ensuite gravi les échelons à force de travail et a décroché le poste de Directrice des Opérations chez PERFORM WORLD où elle était responsable de la gestion des opérations d'exportation agricole, poste qu'elle a occupé avec brio pendant 3 ans. Riche d'expérience et de compétences personnelles, Mme Kanga a décidé en 2019 de concrétiser son rêve, celui de redynamiser le secteur du transit et de la logistique en créant sa première société KAME SERVICES PLUS spécialisée dans le transit import-export par mer, terre, air et supply chain. gestion. Mme Kanga se positionne désormais comme une experte et porte une deuxième casquette, celle de consultante import-export depuis 2019 au GIE GEPPA - 1er exportateur mondial de noix de cajou.
 </p>
               </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <img class="d-block h-100 w-100" src="assets/img/EvelyneKanga.jpg" alt="">
+      </div>
+    </div>
+  </div>
+<br><br><br>
+  <!-- cards below -->
+        <div class="row">
+
+         
+
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/M.KOUADIO.png"class="img-fluid" alt="">
+          
+              </div>
+              <div class="member-info">
+                <h4>FRANK KOUDIO</h4>
+                <span>directeur des opérations</span>
+                <p> M. Frank Kouadio a plus de treize ans d'expérience dans la gestion des opérations de transport logistique. Après son diplôme professionnel en logistique, il a occupé successivement les postes de Fleet Manager et de Responsable Logistique au sein de SOFT DRINKS et SOCOTRA, et a dirigé les opérations dans une multinationale exportatrice de noix de cajou. Il rejoint KAME SERVICES en tant que Chief Operating Officer avec pour mission la gestion de projet et des ressources humaines afin de contribuer significativement à la réussite des projets de l'entreprise. </p>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/M.YAO.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Bruno M'Bouké </h4>
+                <span>Responsable des opérations et de la manutention</span>
+                <p> M. M'Bouké est titulaire d'une licence professionnelle en Marketing Management. Il a à son actif, plus de 9 ans d'expérience dans le domaine maritime et commercial. Après un parcours professionnel riche et varié au sein d'entreprises telles que Deloitte, ADM et Olam, M. M'bouké a décidé de mettre son savoir-faire et son expertise au service de KAME SERVICE PLUS en occupant le poste de Responsable des Opérations et de la Manutention. Il travaille dur pour agrandir son département. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <br><br><br>
+      <div class="row">
+
+         
+
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
                 <img src="assets/img/M.KOUADIO.png" class="img-fluid" alt="">
@@ -154,7 +229,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <div class="member-img">
                 <img src="assets/img/M.YAO.png" class="img-fluid" alt="">
